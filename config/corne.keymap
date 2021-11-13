@@ -17,23 +17,23 @@
 // ZMK JSON START
                 layer_0 {
                         bindings = <
-   &kp TAB &kp Q &kp W &kp I &kp F &kp M &kp Y &kp U &kp D &kp O &kp SEMI_COLON &kp BACKSPACE
+   &kp TAB &kp Q &kp W &kp I &kp F &kp M &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
    &kp ESCAPE &kp A &kp S &kp E &kp T &kp G &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B &kp J &kp K &kp COMMA &kp DOT &mt LC(SLASH) &kp ENTER
-   &kp LGUI &mo 3 &kp SPACE &kp RSHFT &mo 4 &mt RA(SPACE)
+   &kp LCTRL &kp Z &kp X &kp C &kp V &kp B &kp J &kp K &kp COMMA &kp DOT &mt LCTRL SLASH &kp ENTER
+   &kp LGUI &mo 3 &kp SPACE &kp RSHIFT &mo 4 &mt RALT SPACE
                         >;
                 };
                 layer_1 {
                         bindings = <
    &trans &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &trans
-   &trans &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI_COLON &kp SINGLE_QUOTE
+   &trans &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE
    &trans &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &trans
    &trans &trans &trans &trans &trans &trans
                         >;
                 };
                 layer_2 {
                         bindings = <
-   &trans &kp Q &kp C &kp U &kp D &kp M &kp W &kp L &kp S &kp F &kp SEMI_COLON &trans
+   &trans &kp Q &kp C &kp U &kp D &kp M &kp W &kp L &kp S &kp F &kp SEMICOLON &trans
    &trans &kp A &kp I &kp E &kp T &kp G &kp H &kp N &kp R &kp O &kp P &kp SINGLE_QUOTE
    &trans &kp Z &kp X &kp Y &kp V &kp B &kp J &kp K &kp COMMA &kp DOT &kp SLASH &trans
    &trans &trans &trans &trans &trans &trans
@@ -42,8 +42,8 @@
                 layer_3 {
                         bindings = <
    &kp DELETE &none &none &kp UP &kp MINUS &none &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
-   &kp LSHFT &kp LG(LS(LA(LC(F15)))) &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F16)))) &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
-   &trans &kp LALT &kp LG(LS(LCTRL)) &kp LG(LSHFT) &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
+   &kp LSHIFT &kp LG(LS(LA(LC(F15)))) &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F16)))) &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
+   &trans &kp LALT &kp LG(LS(LCTRL)) &kp LG(LSHIFT) &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
    &trans &trans &trans &trans &mo 5 &kp N0
                         >;
                 };
@@ -57,7 +57,7 @@
                 };
                 layer_5 {
                         bindings = <
-   &to 1 &kp LG(LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M)))) &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMI_COLON)))) &tog 6
+   &to 1 &kp LG(LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M)))) &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMICOLON)))) &tog 6
    &to 0 &kp LG(LS(LA(LC(A)))) &kp LG(LS(LA(LC(S)))) &kp LG(LS(LA(LC(D)))) &kp LG(LS(LA(LC(T)))) &kp LG(LS(LA(LC(G)))) &kp LG(LS(LA(LC(H)))) &kp LG(LS(LA(LC(N)))) &kp LG(LS(LA(LC(E)))) &kp LG(LS(LA(LC(L)))) &kp LG(LS(LA(LC(P)))) &tog 7
    &to 2 &kp LG(LS(LA(LC(Z)))) &kp LG(LS(LA(LC(X)))) &kp LG(LS(LA(LC(C)))) &kp LG(LS(LA(LC(V)))) &kp LG(LS(LA(LC(B)))) &kp LG(LS(LA(LC(J)))) &kp LG(LS(LA(LC(K)))) &kp LG(LS(LA(LC(COMMA)))) &kp LG(LS(LA(LC(DOT)))) &to 9 &tog 8
    &none &none &none &none &none &none
@@ -83,7 +83,7 @@
                         bindings = <
    &none &kp F9 &kp F10 &kp F11 &kp F12 &none &none &none &none &none &none &none
    &none &kp F5 &kp F5 &kp F7 &kp F8 &none &none &none &none &none &none &none
-   &none &kp F1 &kp F2 &kp F3 &kp F4 &none &none &kp LSHFT &kp RGUI &kp RALT &kp RCTRL &tog 8
+   &none &kp F1 &kp F2 &kp F3 &kp F4 &none &none &kp LSHIFT &kp RGUI &kp RALT &kp RCTRL &tog 8
    &none &trans &none &none &trans &none
                         >;
                 };
@@ -92,7 +92,7 @@
    &kp TAB &none &kp W &kp R &none &none &none &kp U &kp UP &none &none &kp HOME
    &kp ESCAPE &none &none &none &none &none &kp H &kp LEFT &kp DOWN &kp RIGHT &kp P &none
    &none &kp Z &none &kp C &none &kp B &kp J &none &none &none &to 0 &kp END
-   &kp LG(F5) &mt LC(LA(LG())) &kp LC(LA()) &kp RSHFT &kp LCTRL &kp SPACE
+   &kp LG(F5) &mt LC(LA(LGUI))  &kp LC(LA()) &kp RSHIFT &kp LCTRL &kp SPACE
                         >;
                 };
 // ZMK JSON END
