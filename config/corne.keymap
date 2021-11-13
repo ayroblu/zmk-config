@@ -15,7 +15,7 @@
    // &none &none &none &none &none &none   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
 
 // ZMK JSON START
-                layer {
+                layer_0 {
                         bindings = <
    &kp TAB &kp Q &kp W &kp I &kp F &kp M &kp Y &kp U &kp D &kp O &kp SEMI_COLON &kp BACKSPACE
    &kp ESCAPE &kp A &kp S &kp E &kp T &kp G &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
@@ -23,7 +23,7 @@
    &kp LGUI &mo 3 &kp SPACE &kp RSHFT &mo 4 &mt RA(SPACE)
                         >;
                 };
-                layer {
+                layer_1 {
                         bindings = <
    &trans &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &trans
    &trans &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K &kp L &kp SEMI_COLON &kp SINGLE_QUOTE
@@ -31,7 +31,7 @@
    &trans &trans &trans &trans &trans &trans
                         >;
                 };
-                layer {
+                layer_2 {
                         bindings = <
    &trans &kp Q &kp C &kp U &kp D &kp M &kp W &kp L &kp S &kp F &kp SEMI_COLON &trans
    &trans &kp A &kp I &kp E &kp T &kp G &kp H &kp N &kp R &kp O &kp P &kp SINGLE_QUOTE
@@ -39,7 +39,7 @@
    &trans &trans &trans &trans &trans &trans
                         >;
                 };
-                layer {
+                layer_3 {
                         bindings = <
    &kp DELETE &none &none &kp UP &kp MINUS &none &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
    &kp LSHFT &kp LG(LS(LA(LC(F15)))) &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F16)))) &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
@@ -47,7 +47,7 @@
    &trans &trans &trans &trans &mo 5 &kp N0
                         >;
                 };
-                layer {
+                layer_4 {
                         bindings = <
    &kp GRAVE &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT &kp CARET &kp AMPERSAND &kp ASTERISK &none &kp PLUS &kp BACKSPACE
    &kp TILDE &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &kp EQUAL
@@ -55,7 +55,7 @@
    &trans &mo 5 &trans &trans &trans &kp RALT
                         >;
                 };
-                layer {
+                layer_5 {
                         bindings = <
    &to 1 &kp LG(LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M)))) &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMI_COLON)))) &tog 6
    &to 0 &kp LG(LS(LA(LC(A)))) &kp LG(LS(LA(LC(S)))) &kp LG(LS(LA(LC(D)))) &kp LG(LS(LA(LC(T)))) &kp LG(LS(LA(LC(G)))) &kp LG(LS(LA(LC(H)))) &kp LG(LS(LA(LC(N)))) &kp LG(LS(LA(LC(E)))) &kp LG(LS(LA(LC(L)))) &kp LG(LS(LA(LC(P)))) &tog 7
@@ -63,7 +63,7 @@
    &none &none &none &none &none &none
                         >;
                 };
-                layer {
+                layer_6 {
                         bindings = <
    &none &none &none &none &none &none &none &none &none &none &none &tog 6
    &none &none &none &none &none &none   &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
@@ -71,7 +71,7 @@
    &none &trans &none &none &trans &none
                         >;
                 };
-                layer {
+                layer_7 {
                         bindings = <
    &none &none &kp C_VOLUME_DOWN &kp K_MUTE &kp C_VOLUME_UP &none &none &none &none &none &none &none
    &none &none &none &none &none &none &none &none &none &none &none &tog 7
@@ -79,7 +79,7 @@
    &none &trans &none &none &trans &none
                         >;
                 };
-                layer {
+                layer_8 {
                         bindings = <
    &none &kp F9 &kp F10 &kp F11 &kp F12 &none &none &none &none &none &none &none
    &none &kp F5 &kp F5 &kp F7 &kp F8 &none &none &none &none &none &none &none
@@ -87,7 +87,7 @@
    &none &trans &none &none &trans &none
                         >;
                 };
-                layer {
+                layer_9 {
                         bindings = <
    &kp TAB &none &kp W &kp R &none &none &none &kp U &kp UP &none &none &kp HOME
    &kp ESCAPE &none &none &none &none &none &kp H &kp LEFT &kp DOWN &kp RIGHT &kp P &none
