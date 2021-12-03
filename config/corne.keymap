@@ -32,7 +32,7 @@
       &kp TAB &kp F &kp D &kp N &kp I &kp G  &none &none &none &none &none &none
    &kp ESCAPE &kp S &kp T &kp H &kp E &kp O  &none &none &none &none &none &none
     &kp ENTER &kp C &kp W &kp R &kp A &kp U  &none &none &none &none &none &none
-                &sk LGUI &mo 5 &lt 1 KC_SPC  &none &none &none
+                 &sk LGUI &mo 5 &lt 1 SPACE  &none &none &none
 //      &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
 //   &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
 //    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
