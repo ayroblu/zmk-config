@@ -23,6 +23,12 @@
         };
         combos {
                 compatible = "zmk,combos";
+                combo_shift {
+                    timeout-ms = <60>;
+                    key-positions = <38 37>;
+                    bindings = <&sk LSHIFT>;
+                    layers = <10>;
+                };
                 combo_fj {
                     timeout-ms = <60>;
                     key-positions = <38 1>;
