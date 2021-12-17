@@ -55,7 +55,7 @@
                 };
                 combo_sy {
                     timeout-ms = <60>;
-                    key-positions = <38 13>;
+                    key-positions = <13 38>;
                     bindings = <&kp Y>;
                     layers = <10>;
                 };
