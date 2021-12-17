@@ -32,33 +32,9 @@
                     bindings = <&kp J>;
                     layers = <10>;
                 };
-                combo_dk {
-                    timeout-ms = <60>;
-                    key-positions = <38 2>;
-                    bindings = <&kp K>;
-                    layers = <10>;
-                };
-                combo_nm {
-                    timeout-ms = <60>;
-                    key-positions = <38 3>;
-                    bindings = <&kp M>;
-                    layers = <10>;
-                };
-                combo_iq {
-                    timeout-ms = <60>;
-                    key-positions = <38 4>;
-                    bindings = <&kp SLASH>;
-                    layers = <10>;
-                };
-                combo_gm {
-                    timeout-ms = <60>;
-                    key-positions = <38 5>;
-                    bindings = <&kp SEMICOLON>;
-                    layers = <10>;
-                };
                 combo_sy {
                     timeout-ms = <60>;
-                    key-positions = <13 38>;
+                    key-positions = <38 13>;
                     bindings = <&kp Y>;
                     layers = <10>;
                 };
