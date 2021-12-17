@@ -23,36 +23,6 @@
         };
         combos {
                 compatible = "zmk,combos";
-                combo_sy {
-                    timeout-ms = <60>;
-                    key-positions = <38 13>;
-                    bindings = <&kp Y>;
-                    layers = <10>;
-                };
-                combo_tp {
-                    timeout-ms = <60>;
-                    key-positions = <38 14>;
-                    bindings = <&kp P>;
-                    layers = <10>;
-                };
-                combo_hl {
-                    timeout-ms = <60>;
-                    key-positions = <38 15>;
-                    bindings = <&kp L>;
-                    layers = <10>;
-                };
-                combo_ed {
-                    timeout-ms = <60>;
-                    key-positions = <38 16>;
-                    bindings = <&kp DOT>;
-                    layers = <10>;
-                };
-                combo_oq {
-                    timeout-ms = <60>;
-                    key-positions = <38 17>;
-                    bindings = <&kp Q>;
-                    layers = <10>;
-                };
                 combo_fj {
                     timeout-ms = <60>;
                     key-positions = <38 1>;
@@ -81,6 +51,36 @@
                     timeout-ms = <60>;
                     key-positions = <38 5>;
                     bindings = <&kp SEMICOLON>;
+                    layers = <10>;
+                };
+                combo_sy {
+                    timeout-ms = <60>;
+                    key-positions = <38 13>;
+                    bindings = <&kp Y>;
+                    layers = <10>;
+                };
+                combo_tp {
+                    timeout-ms = <60>;
+                    key-positions = <38 14>;
+                    bindings = <&kp P>;
+                    layers = <10>;
+                };
+                combo_hl {
+                    timeout-ms = <60>;
+                    key-positions = <38 15>;
+                    bindings = <&kp L>;
+                    layers = <10>;
+                };
+                combo_ed {
+                    timeout-ms = <60>;
+                    key-positions = <38 16>;
+                    bindings = <&kp DOT>;
+                    layers = <10>;
+                };
+                combo_oq {
+                    timeout-ms = <60>;
+                    key-positions = <38 17>;
+                    bindings = <&kp Q>;
                     layers = <10>;
                 };
                 combo_cx {
