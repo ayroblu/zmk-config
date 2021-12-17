@@ -20,6 +20,9 @@
                         flavor = "tap-preferred";
                         bindings = <&kp>, <&kp>;
                 };
+                lt {
+                        flavor = "hold-preferred";
+                };
         };
         combos {
                 compatible = "zmk,combos";
