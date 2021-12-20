@@ -211,49 +211,49 @@
    &kp BACKSPACE &kp F &kp D &kp N &kp I &kp G  &kp G &kp I &kp N &kp D &kp F &kp BACKSPACE
       &kp ESCAPE &kp S &kp T &kp H &kp E &kp O  &kp O &kp E &kp H &kp T &kp S &kp ESCAPE
        &kp ENTER &kp C &kp W &kp R &kp A &kp U  &kp U &kp A &kp R &kp W &kp C &kp ENTER
-                 &sk LGUI &mo 15 &lt 11 SPACE  &lt 11 SPACE &mo 15 &sk RGUI
+                  &sk LGUI &mo 15 &lt 11 SPACE  &lt 11 SPACE &mo 15 &sk RGUI
                         >;
                 };
-                 layer_11 {
-                         bindings = <
-    &kp DELETE &kp J &kp K &kp M &kp SLASH &kp SEMICOLON  &kp SEMICOLON &kp SLASH &kp M &kp K &kp J &kp DELETE
-        &kp SINGLE_QUOTE &kp Y &kp P &kp L &kp DOT &kp Q  &kp Q &kp DOT &trans &kp P &kp Y &kp SINGLE_QUOTE
-             &kp ENTER &kp X &kp B &kp V &kp COMMA &kp Z  &kp Z &kp COMMA &kp V &kp B &kp X &kp ENTER
-                               &sk LGUI &mo 15 &kp SPACE  &kp SPACE &mo 0 &sk RGUI
-                         >;
-                 };
-                 layer_12 {
-                         bindings = <
-                                  &sk LALT &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp PERCENT &kp DOLLAR &kp HASH &kp AT &kp EXCLAMATION &sk RALT
-        &sk LCTRL &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH  &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &kp RIGHT_BRACE &sk RCTRL
-    &sk LSHIFT &kp LESS_THAN &kp GREATER_THAN &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE  &kp PIPE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LESS_THAN &kp GREATER_THAN &sk RSHIFT
-                                                                        &sk LGUI &mo 15 &kp SPACE  &kp SPACE &mo 15 &sk RGUI
-                         >;
-                 };
-                 layer_13 {
-                         bindings = <
-         &sk LALT &kp SLASH &kp N7 &kp N8 &kp N9 &kp PLUS  &kp PLUS &kp N7 &kp N8 &kp N9 &kp SLASH &sk RALT
-    &sk LCTRL &kp ASTERISK &kp N4 &kp N5 &kp N6 &kp EQUAL  &kp EQUAL &kp N4 &kp N5 &kp N6 &trans &sk RCTRL
-         &sk LSHIFT &kp N0 &kp N1 &kp N2 &kp N3 &kp MINUS  &kp MINUS &kp N1 &kp N2 &kp N3 &trans &sk RSHIFT
+                layer_11 {
+                        bindings = <
+   &kp DELETE &kp J &kp K &kp M &kp SLASH &kp SEMICOLON  &kp SEMICOLON &kp SLASH &kp M &kp K &kp J &kp DELETE
+       &kp SINGLE_QUOTE &kp Y &kp P &kp L &kp DOT &kp Q  &kp Q &kp DOT &trans &kp P &kp Y &kp SINGLE_QUOTE
+            &kp ENTER &kp X &kp B &kp V &kp COMMA &kp Z  &kp Z &kp COMMA &kp V &kp B &kp X &kp ENTER
+                              &sk LGUI &mo 15 &kp SPACE  &kp SPACE &mo 0 &sk RGUI
+                        >;
+                };
+                layer_12 {
+                        bindings = <
+                           &kp BACKSPACE &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp PERCENT &kp DOLLAR &kp HASH &kp AT &kp EXCLAMATION &sk RALT
+     &kp ESCAPE &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH  &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &kp RIGHT_BRACE &sk RCTRL
+   &kp ENTER &kp LESS_THAN &kp GREATER_THAN &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE  &kp PIPE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LESS_THAN &kp GREATER_THAN &sk RSHIFT
+                                                                      &sk LGUI &mo 15 &kp SPACE  &kp SPACE &mo 15 &sk RGUI
+                        >;
+                };
+                layer_13 {
+                        bindings = <
+    &kp BACKSPACE &kp SLASH &kp N7 &kp N8 &kp N9 &kp PLUS  &kp PLUS &kp N7 &kp N8 &kp N9 &kp SLASH &sk RALT
+   &kp ESCAPE &kp ASTERISK &kp N4 &kp N5 &kp N6 &kp EQUAL  &kp EQUAL &kp N4 &kp N5 &kp N6 &trans &sk RCTRL
+          &kp ENTER &kp N0 &kp N1 &kp N2 &kp N3 &kp MINUS  &kp MINUS &kp N1 &kp N2 &kp N3 &trans &sk RSHIFT
                                 &sk LGUI &mo 15 &kp SPACE  &kp SPACE &mo 15 &sk RGUI
-                         >;
-                 };
-                 layer_14 {
-                         bindings = <
-      &sk LALT &kp CARET &kp AMPERSAND &kp UP &none &none  &none &none &kp UP &kp AMPERSAND &kp CARET &sk RALT
-    &sk LCTRL &kp GRAVE &kp LEFT &kp DOWN &kp RIGHT &none  &none &kp LEFT &kp DOWN &kp RIGHT &trans &sk RCTRL
-    &sk LSHIFT &kp TILDE &kp UNDERSCORE &none &none &none  &none &none &none &kp UNDERSCORE &kp TILDE &sk RSHIFT
-                                &sk LGUI &mo 15 &kp SPACE  &none &none &none
-                         >;
-                 };
-                 layer_15 {
-                         bindings = <
-           &kp TAB &none &none &to 0 &none &none  &none &none &none &none &none &kp TAB
-     &none &to 14 &to 12 &to 11 &to 10 &sk LCTRL  &sk RCTRL &to 10 &to 11 &to 12 &to 14 &none
-    &none &to 13 &sk LALT &sk LSHIFT &none &none  &none &none &sk RSHIFT &sk RALT &to 13 &none
-                              &none &trans &none  &none &trans &none
-                         >;
-                 };
+                        >;
+                };
+                layer_14 {
+                        bindings = <
+   &kp BACKSPACE &kp CARET &kp AMPERSAND &kp UP &none &none  &none &none &kp UP &kp AMPERSAND &kp CARET &sk RALT
+     &kp ESCAPE &kp GRAVE &kp LEFT &kp DOWN &kp RIGHT &none  &none &kp LEFT &kp DOWN &kp RIGHT &trans &sk RCTRL
+       &kp ENTER &kp TILDE &kp UNDERSCORE &none &none &none  &none &none &none &kp UNDERSCORE &kp TILDE &sk RSHIFT
+                                  &sk LGUI &mo 15 &kp SPACE  &none &none &none
+                        >;
+                };
+                layer_15 {
+                        bindings = <
+          &kp TAB &none &none &to 0 &none &none  &none &none &none &none &none &kp TAB
+    &none &to 14 &to 12 &to 11 &to 10 &sk LCTRL  &sk RCTRL &to 10 &to 11 &to 12 &to 14 &none
+   &none &to 13 &sk LALT &sk LSHIFT &none &none  &none &none &sk RSHIFT &sk RALT &to 13 &none
+                             &none &trans &none  &none &trans &none
+                        >;
+                };
 // ZMK JSON END
         };
 };
