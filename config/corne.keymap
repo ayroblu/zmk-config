@@ -152,7 +152,7 @@
                 };
                 layer_3 {
                         bindings = <
-                                                     &kp DELETE &none &none &kp UP &kp MINUS &to 10  &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
+                                                   &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10  &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
              &kp LSHIFT &kp LG(LS(LA(LC(F15)))) &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F16))))  &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
    &trans &kp LALT &kp LG(LS(LCTRL)) &kp LG(LSHIFT) &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19))))  &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
                                                                                &trans &trans &trans  &trans &mo 5 &kp N0
@@ -176,15 +176,15 @@
                 };
                 layer_6 {
                         bindings = <
-   &reset &none &none &none &none &none  &out OUT_USB &out OUT_BLE &none &none &none &tog 6
-    &none &none &none &none &none &none  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-    &none &none &none &none &none &none  &none &none &none &none &none &none
-                     &none &trans &none  &none &trans &none
+                            &reset &none &trans &none &out OUT_BLE &out OUT_USB  &out OUT_USB &out OUT_BLE &none &none &none &tog 6
+    &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR  &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                                            &none &none &none &none &none &none  &none &none &none &none &none &none
+                                                             &none &trans &none  &none &trans &none
                         >;
                 };
                 layer_7 {
                         bindings = <
-                     &none &none &kp C_VOLUME_DOWN &kp K_MUTE &kp C_VOLUME_UP &none  &none &none &none &none &none &none
+                    &none &trans &kp C_VOLUME_DOWN &kp K_MUTE &kp C_VOLUME_UP &none  &none &none &none &none &none &none
    &none &kp C_REWIND &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &kp C_FAST_FORWARD  &none &none &none &none &none &tog 7
             &none &none &kp C_BRIGHTNESS_DEC &none &kp C_BRIGHTNESS_INC &kp C_SLEEP  &none &none &none &none &none &none
                                                                  &none &trans &none  &none &trans &none
