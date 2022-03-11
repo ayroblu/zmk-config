@@ -128,10 +128,10 @@
 // ZMK JSON START
                 layer_0 {
                         bindings = <
-      &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
-   &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-    &kp LCTRL &kp Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
-                   &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
+           &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
+        &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
+   &kp LCTRL &kp Z &hm LCTRL X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
+                        &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
                         >;
                 };
                 layer_1 {
@@ -153,7 +153,7 @@
                 layer_3 {
                         bindings = <
                                                    &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10  &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
-                                             &kp LSHIFT &kp LCTRL &kp LEFT &kp DOWN &kp RIGHT &none  &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
+                                                 &kp LSHIFT &none &kp LEFT &kp DOWN &kp RIGHT &none  &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
    &trans &kp LALT &kp LG(LS(LCTRL)) &kp LG(LSHIFT) &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19))))  &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
                                                                                &trans &trans &trans  &trans &mo 5 &kp N0
                         >;
@@ -162,8 +162,8 @@
                         bindings = <
                              &kp GRAVE &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &none &kp PLUS &kp BACKSPACE
    &kp TILDE &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN  &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &kp EQUAL
-                                              &trans &kp PIPE &none &kp GRAVE &kp TILDE &none  &kp ESCAPE &kp EQUAL &none &kp ENTER &kp UNDERSCORE &none
-                                                                          &trans &mo 5 &trans  &trans &trans &kp RALT
+                                   &trans &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &kp UNDERSCORE &none
+                                                                          &trans &mo 5 &trans  &kp RCTRL &trans &kp RALT
                         >;
                 };
                 layer_5 {
