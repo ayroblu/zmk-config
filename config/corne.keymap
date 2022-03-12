@@ -144,9 +144,9 @@
                 };
                 layer_2 {
                         bindings = <
-   &trans &kp Q &kp C &kp U &kp D &kp M  &kp W &kp L &kp S &kp F &kp SEMICOLON &trans
-   &trans &kp A &kp I &kp E &kp T &kp G  &kp H &kp N &kp R &kp O &kp P &kp SINGLE_QUOTE
-   &trans &kp Z &kp X &kp Y &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &kp SLASH &trans
+   &trans &kp Q &kp W &kp F &kp P &kp B  &kp J &kp L &kp U &kp Y &kp SEMICOLON &trans
+   &trans &kp A &kp R &kp S &kp T &kp G  &kp M &kp N &kp E &kp I &kp O &kp SINGLE_QUOTE
+   &trans &kp Z &kp X &kp C &kp D &kp V  &kp K &kp H &kp COMMA &kp DOT &kp SLASH &trans
                    &trans &trans &trans  &trans &trans &trans
                         >;
                 };
