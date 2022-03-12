@@ -25,7 +25,7 @@
                 compatible = "zmk,combos";
                 combo_tmux_prefix {
                     timeout-ms = <60>;
-                    key-positions = <40 14>;
+                    key-positions = <40 13>;
                     bindings = <&kp LC(BACKSLASH)>;
                     layers = <0 1 2 4>;
                 };
