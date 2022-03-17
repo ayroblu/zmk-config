@@ -29,12 +29,19 @@
                     bindings = <&kp LCTRL>;
                     layers = <0 1 2 4>;
                 };
+                combo_esc {
+                    timeout-ms = <60>;
+                    key-positions = <40 32>;
+                    bindings = <&kp ESCAPE>;
+                    layers = <0 1 2 4>;
+                };
                 combo_enter {
                     timeout-ms = <60>;
                     key-positions = <40 33>;
                     bindings = <&kp ENTER>;
                     layers = <0 1 2 4>;
                 };
+                // -- one handed combos
                 combo_shift {
                     timeout-ms = <60>;
                     key-positions = <38 37>;
