@@ -23,10 +23,10 @@
         };
         combos {
                 compatible = "zmk,combos";
-                combo_tmux_prefix {
+                combo_ctrl {
                     timeout-ms = <60>;
-                    key-positions = <40 13>;
-                    bindings = <&kp LC(BACKSLASH)>;
+                    key-positions = <36 37>;
+                    bindings = <&kp LCTRL>;
                     layers = <0 1 2 4>;
                 };
                 combo_enter {
