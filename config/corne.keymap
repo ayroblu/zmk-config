@@ -23,12 +23,6 @@
         };
         combos {
                 compatible = "zmk,combos";
-                combo_ctrl {
-                    timeout-ms = <60>;
-                    key-positions = <37 38>;
-                    bindings = <&kp LCTRL>;
-                    layers = <0 1 2 4>;
-                };
                 combo_esc {
                     timeout-ms = <60>;
                     key-positions = <40 32>;
