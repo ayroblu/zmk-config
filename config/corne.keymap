@@ -143,7 +143,7 @@
                         bindings = <
        &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
     &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-   &none &kp Z &hm LCTRL X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
+   &none &hm LCTRL Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
                     &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
                         >;
                 };
@@ -167,7 +167,7 @@
                         bindings = <
                                        &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10  &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
                                      &none &kp ESCAPE &kp LEFT &kp DOWN &kp RIGHT &none  &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
-   &trans &kp LALT &kp LCTRL &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19))))  &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
+   &trans &kp LCTRL &kp LALT &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19))))  &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
                                                                    &trans &trans &trans  &trans &mo 5 &kp N0
                         >;
                 };
