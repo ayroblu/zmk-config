@@ -35,6 +35,12 @@
                     bindings = <&kp ENTER>;
                     layers = <0 1 2 4>;
                 };
+                combo_tmux {
+                    timeout-ms = <60>;
+                    key-positions = <25 37>;
+                    bindings = <&kp LC(BACKSLASH)>;
+                    layers = <0 1 2 4>;
+                };
                 // -- one handed combos
                 combo_shift {
                     timeout-ms = <60>;
@@ -173,10 +179,10 @@
                 };
                 layer_4 {
                         bindings = <
-                             &kp GRAVE &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &none &kp PLUS &kp BACKSPACE
-   &kp TILDE &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN  &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &kp EQUAL
-                                   &trans &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &mt LCTRL UNDERSCORE &none
-                                                                          &trans &mo 5 &trans  &trans &trans &kp RALT
+                             &none &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &kp BACKSPACE &kp PLUS &none
+   &none &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN  &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &none
+                               &trans &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &mt LCTRL UNDERSCORE &none
+                                                                      &trans &mo 5 &trans  &trans &trans &kp RALT
                         >;
                 };
                 layer_5 {
