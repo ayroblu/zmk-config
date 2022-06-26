@@ -37,8 +37,8 @@
                 };
                 combo_tmux {
                     timeout-ms = <60>;
-                    key-positions = <25 37>;
-                    bindings = <&kp LC(BACKSLASH)>;
+                    key-positions = <40 21>;
+                    bindings = <&kp BACKSLASH>;
                     layers = <0 1 2 4>;
                 };
                 // -- one handed combos
