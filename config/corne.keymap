@@ -37,7 +37,7 @@
                 };
                 combo_tmux {
                     timeout-ms = <60>;
-                    key-positions = <40 21>;
+                    key-positions = <40 34 13>;
                     bindings = <&kp BACKSLASH>;
                     layers = <0 1 2 4>;
                 };
