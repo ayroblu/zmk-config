@@ -41,6 +41,18 @@
                     bindings = <&kp RC(BACKSLASH)>;
                     layers = <0 1 2 4>;
                 };
+                combo_alt_shift {
+                    timeout-ms = <60>;
+                    key-positions = <41 32>;
+                    bindings = <&kp RS(RALT)>;
+                    layers = <0 1 2 4>;
+                };
+                combo_shift_cmd {
+                    timeout-ms = <60>;
+                    key-positions = <39 32>;
+                    bindings = <&kp RG(RSHIFT)>;
+                    layers = <0 1 2 4>;
+                };
                 // -- one handed combos
                 combo_shift {
                     timeout-ms = <60>;
