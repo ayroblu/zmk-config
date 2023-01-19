@@ -11,7 +11,7 @@ manifest:
     #   import: app/west.yml
     - name: zmk
       remote: petejohanson
-      revision: kyria-rev3
+      revision: shields/kyria-rev3
       import: app/west.yml
   self:
     path: config
