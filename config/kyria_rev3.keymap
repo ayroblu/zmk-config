@@ -25,130 +25,33 @@
     compatible = "zmk,combos";
     combo_esc {
         timeout-ms = <60>;
-        key-positions = <40 32>;
+        key-positions = <47 36>; // 40, 32
         bindings = <&kp ESCAPE>;
         layers = <0 1 2 4>;
     };
     combo_enter {
         timeout-ms = <60>;
-        key-positions = <40 33>;
+        key-positions = <47 37>;
         bindings = <&kp ENTER>;
         layers = <0 1 2 4>;
     };
     combo_tmux {
         timeout-ms = <60>;
-        key-positions = <40 34 13>;
+        key-positions = <47 38 13>;
         bindings = <&kp RC(BACKSLASH)>;
         layers = <0 1 2 4>;
     };
     combo_alt_shift {
         timeout-ms = <60>;
-        key-positions = <41 32>;
+        key-positions = <48 36>;
         bindings = <&kp RS(RALT)>;
         layers = <0 1 2 4>;
     };
     combo_shift_cmd {
         timeout-ms = <60>;
-        key-positions = <39 32>;
+        key-positions = <46 36>;
         bindings = <&kp RG(RSHIFT)>;
         layers = <0 1 2 4>;
-    };
-    // -- one handed combos
-    combo_shift {
-        timeout-ms = <60>;
-        key-positions = <38 37>;
-        bindings = <&sk LSHIFT>;
-        layers = <10>;
-    };
-    combo_fj {
-        timeout-ms = <60>;
-        key-positions = <38 1>;
-        bindings = <&kp J>;
-        layers = <10>;
-    };
-    combo_dk {
-        timeout-ms = <60>;
-        key-positions = <38 2>;
-        bindings = <&kp K>;
-        layers = <10>;
-    };
-    combo_nm {
-        timeout-ms = <60>;
-        key-positions = <38 3>;
-        bindings = <&kp M>;
-        layers = <10>;
-    };
-    combo_iq {
-        timeout-ms = <60>;
-        key-positions = <38 4>;
-        bindings = <&kp SLASH>;
-        layers = <10>;
-    };
-    combo_gm {
-        timeout-ms = <60>;
-        key-positions = <38 5>;
-        bindings = <&kp SEMICOLON>;
-        layers = <10>;
-    };
-    combo_sy {
-        timeout-ms = <60>;
-        key-positions = <38 13>;
-        bindings = <&kp Y>;
-        layers = <10>;
-    };
-    combo_tp {
-        timeout-ms = <60>;
-        key-positions = <38 14>;
-        bindings = <&kp P>;
-        layers = <10>;
-    };
-    combo_hl {
-        timeout-ms = <60>;
-        key-positions = <38 15>;
-        bindings = <&kp L>;
-        layers = <10>;
-    };
-    combo_ed {
-        timeout-ms = <60>;
-        key-positions = <38 16>;
-        bindings = <&kp DOT>;
-        layers = <10>;
-    };
-    combo_oq {
-        timeout-ms = <60>;
-        key-positions = <38 17>;
-        bindings = <&kp Q>;
-        layers = <10>;
-    };
-    combo_cx {
-        timeout-ms = <60>;
-        key-positions = <38 25>;
-        bindings = <&kp X>;
-        layers = <10>;
-    };
-    combo_wb {
-        timeout-ms = <60>;
-        key-positions = <38 26>;
-        bindings = <&kp B>;
-        layers = <10>;
-    };
-    combo_rv {
-        timeout-ms = <60>;
-        key-positions = <38 27>;
-        bindings = <&kp V>;
-        layers = <10>;
-    };
-    combo_ac {
-        timeout-ms = <60>;
-        key-positions = <38 28>;
-        bindings = <&kp COMMA>;
-        layers = <10>;
-    };
-    combo_uz {
-        timeout-ms = <60>;
-        key-positions = <38 29>;
-        bindings = <&kp Z>;
-        layers = <10>;
     };
   };
   keymap {
