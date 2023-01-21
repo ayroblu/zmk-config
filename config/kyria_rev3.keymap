@@ -67,7 +67,7 @@
    &none &hm LCTRL Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
                     &none &kp LGUI &mo 3 &kp SPACE &none  &none &kp RSHIFT &mo 4 &mt RALT SPACE &none
       >;
-      sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+      sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
     layer_1 {
       bindings = <
@@ -125,7 +125,7 @@
             &none &none &kp C_BRIGHTNESS_DEC &none &kp C_BRIGHTNESS_INC &kp C_SLEEP &none &none  &none &none &none &none &none &none &none &none
                                                                  &none &none &trans &none &none  &none &none &trans &none &none
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+      sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
     };
     layer_8 {
       bindings = <
