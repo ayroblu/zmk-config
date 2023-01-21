@@ -38,7 +38,7 @@
     };
     combo_tmux {
         timeout-ms = <60>;
-        key-positions = <47 38 13>;
+        key-positions = <47 35 36>;
         bindings = <&kp RC(BACKSLASH)>;
         layers = <0 1 2 4>;
     };
@@ -54,6 +54,18 @@
         bindings = <&kp RG(RSHIFT)>;
         layers = <0 1 2 4>;
     };
+    combo_left_control {
+        timeout-ms = <60>;
+        key-positions = <14 15 42>;
+        bindings = <&kp LCTRL>;
+        layers = <0 1 2 4>;
+    };
+    combo_right_control {
+        timeout-ms = <60>;
+        key-positions = <47 20 21>;
+        bindings = <&kp RCTRL>;
+        layers = <0 1 2 4>;
+    };
   };
   keymap {
     compatible = "zmk,keymap";
@@ -65,7 +77,7 @@
       bindings = <
        &kp TAB &kp Q &kp W &kp I &kp F &kp M                          &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
     &kp ESCAPE &kp A &kp S &kp E &kp T &kp G                          &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-   &none &hm LCTRL Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
+   &none &hm LCTRL Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp J &kp K &kp COMMA &kp DOT &hm RCTRL SLASH &kp ENTER
                     &none &kp LGUI &mo 3 &kp SPACE &none  &none &kp RSHIFT &mo 4 &mt RALT SPACE &none
       >;
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;

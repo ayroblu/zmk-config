@@ -37,7 +37,7 @@
                 };
                 combo_tmux {
                     timeout-ms = <60>;
-                    key-positions = <40 34 13>;
+                    key-positions = <40 31 32>;
                     bindings = <&kp RC(BACKSLASH)>;
                     layers = <0 1 2 4>;
                 };
@@ -51,6 +51,18 @@
                     timeout-ms = <60>;
                     key-positions = <39 32>;
                     bindings = <&kp RG(RSHIFT)>;
+                    layers = <0 1 2 4>;
+                };
+                combo_left_control {
+                    timeout-ms = <60>;
+                    key-positions = <14 15 37>;
+                    bindings = <&kp LCTRL>;
+                    layers = <0 1 2 4>;
+                };
+                combo_right_control {
+                    timeout-ms = <60>;
+                    key-positions = <40 20 21>;
+                    bindings = <&kp RCTRL>;
                     layers = <0 1 2 4>;
                 };
                 // -- one handed combos
@@ -161,7 +173,7 @@
                         bindings = <
        &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
     &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-   &none &hm LCTRL Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm LCTRL SLASH &kp ENTER
+   &none &hm LCTRL Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &hm RCTRL SLASH &kp ENTER
                     &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
                         >;
                 };
