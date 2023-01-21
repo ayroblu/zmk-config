@@ -35,9 +35,15 @@
                     bindings = <&kp ENTER>;
                     layers = <0 1 2 4>;
                 };
-                combo_tmux {
+                combo_tmux_left {
                     timeout-ms = <60>;
-                    key-positions = <40 31 32>;
+                    key-positions = <37 15 16>;
+                    bindings = <&kp RC(BACKSLASH)>;
+                    layers = <0 1 2 4>;
+                };
+                combo_tmux_right {
+                    timeout-ms = <60>;
+                    key-positions = <40 19 20>;
                     bindings = <&kp RC(BACKSLASH)>;
                     layers = <0 1 2 4>;
                 };
