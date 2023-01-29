@@ -71,6 +71,18 @@
                     bindings = <&kp RCTRL>;
                     layers = <0 1 2 4>;
                 };
+                combo_control {
+                    timeout-ms = <60>;
+                    key-positions = <38 37>;
+                    bindings = <&kp LCTRL>;
+                    layers = <0 1 2 4>;
+                };
+                combo_tmux {
+                    timeout-ms = <60>;
+                    key-positions = <40 39>;
+                    bindings = <&kp RC(BACKSLASH)>;
+                    layers = <0 1 2 4>;
+                };
                 // -- one handed combos
                 combo_shift {
                     timeout-ms = <60>;

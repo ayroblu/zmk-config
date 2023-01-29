@@ -72,6 +72,18 @@
         bindings = <&kp RCTRL>;
         layers = <0 1 2 4>;
     };
+    combo_control {
+        timeout-ms = <60>;
+        key-positions = <42 43>;
+        bindings = <&kp LCTRL>;
+        layers = <0 1 2 4>;
+    };
+    combo_tmux {
+        timeout-ms = <60>;
+        key-positions = <47 46>;
+        bindings = <&kp RC(BACKSLASH)>;
+        layers = <0 1 2 4>;
+    };
   };
   keymap {
     compatible = "zmk,keymap";
