@@ -189,10 +189,10 @@
 // ZMK JSON START
                 layer_0 {
                         bindings = <
-       &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
-    &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-   &none &kp Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &kp SLASH &kp ENTER
-                    &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
+      &kp TAB &kp Q &kp W &kp I &kp F &kp M  &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
+   &kp ESCAPE &kp A &kp S &kp E &kp T &kp G  &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
+        &none &kp Z &kp X &kp C &kp V &kp B  &kp J &kp K &kp COMMA &kp DOT &kp SLASH &kp ENTER
+                   &kp LGUI &mo 3 &kp SPACE  &kp RSHIFT &mo 4 &mt RALT SPACE
                         >;
                 };
                 layer_1 {
@@ -205,10 +205,10 @@
                 };
                 layer_2 {
                         bindings = <
-   &trans &kp Q &kp W &kp F &kp P &kp B  &kp J &kp L &kp U &kp Y &kp SEMICOLON &trans
-   &trans &kp A &kp R &kp S &kp T &kp G  &kp M &kp N &kp E &kp I &kp O &kp SINGLE_QUOTE
-   &trans &kp Z &kp X &kp C &kp D &kp V  &kp K &kp H &kp COMMA &kp DOT &kp SLASH &trans
-                   &trans &trans &trans  &trans &trans &trans
+   &trans &kp SLASH &kp COMMA &kp DOT &kp P &kp Y  &kp F &kp G &kp C &kp R &kp L &trans
+             &trans &kp A &kp O &kp E &kp U &kp I  &kp D &kp H &kp T &kp N &kp S &kp SINGLE_QUOTE
+     &trans &kp SEMICOLON &kp Q &kp J &kp K &kp X  &kp B &kp M &kp W &kp V &kp Z &trans
+                             &trans &trans &trans  &trans &trans &trans
                         >;
                 };
                 layer_3 {
