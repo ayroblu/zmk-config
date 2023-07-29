@@ -93,60 +93,58 @@
 // ZMK JSON START
     layer_0 {
       bindings = <
-       &kp TAB &kp Q &kp W &kp I &kp F &kp M                          &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
-    &kp ESCAPE &kp A &kp S &kp E &kp T &kp G                          &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
-         &none &kp Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp J &kp K &kp COMMA &kp DOT &kp SLASH &kp ENTER
-         &kp C_PLAY_PAUSE &kp LGUI &mo 3 &kp SPACE &none  &none &kp RSHIFT &mo 4 &mt RALT SPACE &none
+      &kp TAB &kp Q &kp W &kp I &kp F &kp M                          &kp Y &kp U &kp D &kp O &kp SEMICOLON &kp BACKSPACE
+   &kp ESCAPE &kp A &kp S &kp E &kp T &kp G                          &kp H &kp N &kp R &kp L &kp P &kp SINGLE_QUOTE
+        &none &kp Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp J &kp K &kp COMMA &kp DOT &kp SLASH &kp ENTER
+       &kp C_PLAY_PAUSE &kp LGUI &mo 3 &kp SPACE &trans  &trans &kp RSHIFT &mo 4 &mt RALT SPACE &trans
       >;
-      sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
     };
     layer_1 {
       bindings = <
    &trans &kp Q &kp W &kp E &kp R &kp T                          &kp Y &kp U &kp I &kp O &kp P &trans
    &trans &kp A &kp S &kp D &kp F &kp G                          &kp H &kp J &kp K &kp L &kp SEMICOLON &kp SINGLE_QUOTE
    &trans &kp Z &kp X &kp C &kp V &kp B &none &none  &none &none &kp N &kp M &kp COMMA &kp DOT &kp SLASH &trans
-                        &trans &trans &trans &trans  &trans &trans &trans &trans
+                 &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
       >;
     };
     layer_2 {
       bindings = <
-             &trans &kp Z &kp R &kp C &kp G &kp F                          &kp Y &kp J &kp K &kp Q &kp SEMICOLON &trans
-             &trans &kp S &kp N &kp T &kp H &kp D                          &kp U &kp I &kp E &kp O &kp A &kp SINGLE_QUOTE
-             &trans &kp L &kp V &kp W &kp M &kp B &none &none  &none &none &kp X &kp P &kp COMMA &kp DOT &kp SLASH &trans
-                           &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
+   &trans &kp Z &kp R &kp C &kp G &kp F                          &kp Y &kp J &kp K &kp Q &kp SEMICOLON &trans
+   &trans &kp S &kp N &kp T &kp H &kp D                          &kp U &kp I &kp E &kp O &kp A &kp SINGLE_QUOTE
+   &trans &kp L &kp V &kp W &kp M &kp B &none &none  &none &none &kp X &kp P &kp COMMA &kp DOT &kp SLASH &trans
+                 &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
       >;
     };
     layer_3 {
       bindings = <
-                                         &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10                          &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
-                                         &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &none                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
-   &trans &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &none &none  &none &none &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
-                                                                   &trans &trans &trans &trans &trans  &trans &trans &mo 5 &kp N0 &trans
+                                        &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10                          &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
+                                        &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &none                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
+   &none &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &none &none  &none &none &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
+                                                                  &trans &trans &trans &trans &trans  &trans &trans &kp LG(LS(LA(LCTRL))) &kp N0 &trans
       >;
     };
     layer_4 {
       bindings = <
-                             &none &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT                          &kp CARET &kp AMPERSAND &kp ASTERISK &kp BACKSPACE &kp PLUS &none
-   &none &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN                          &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &none
-                               &trans &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE &none &none  &none &none &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &mt LCTRL UNDERSCORE &none
-                                                                    &trans &trans &mo 5 &trans &trans  &trans &trans &trans &kp RALT &trans
+                             &to 1 &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT                          &kp CARET &kp AMPERSAND &kp ASTERISK &kp BACKSPACE &kp PLUS &tog 6
+   &to 0 &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN                          &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &tog 7
+                               &to 2 &kp PIPE &tog 9 &kp GRAVE &kp TILDE &kp SINGLE_QUOTE &none &none  &none &none &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &kp UNDERSCORE &tog 8
+                                                    &trans &trans &kp LG(LS(LA(LCTRL))) &trans &trans  &trans &trans &trans &kp RALT &trans
       >;
-      sensor-bindings = <&inc_dec_kp LG(MINUS) LG(EQUAL)>;
     };
     layer_5 {
       bindings = <
    &to 1 &kp LG(LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M))))                          &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMICOLON)))) &tog 6
    &to 0 &kp LG(LS(LA(LC(A)))) &kp LG(LS(LA(LC(S)))) &kp LG(LS(LA(LC(D)))) &kp LG(LS(LA(LC(T)))) &kp LG(LS(LA(LC(G))))                          &kp LG(LS(LA(LC(H)))) &kp LG(LS(LA(LC(N)))) &kp LG(LS(LA(LC(E)))) &kp LG(LS(LA(LC(L)))) &kp LG(LS(LA(LC(P)))) &tog 7
    &to 2 &kp LG(LS(LA(LC(Z)))) &kp LG(LS(LA(LC(X)))) &kp LG(LS(LA(LC(C)))) &kp LG(LS(LA(LC(V)))) &kp LG(LS(LA(LC(B)))) &none &none  &none &none &kp LG(LS(LA(LC(J)))) &kp LG(LS(LA(LC(K)))) &kp LG(LS(LA(LC(COMMA)))) &kp LG(LS(LA(LC(DOT)))) &to 9 &tog 8
-                                                                                                     &none &none &none &none &none  &none &none &none &none &none
+                                                                                                   &trans &none &none &none &trans  &trans &none &none &none &trans
       >;
     };
     layer_6 {
       bindings = <
-                        &sys_reset &none &trans &none &out OUT_BLE &out OUT_USB                          &out OUT_USB &out OUT_BLE &none &none &none &tog 6
-    &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR                          &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
-                                            &none &none &none &none &none &none &none &none  &none &none &none &none &none &none &none &none
-                                                             &none &none &trans &none &none  &none &none &trans &none &none
+                       &sys_reset &none &trans &none &out OUT_BLE &out OUT_USB                          &out OUT_USB &out OUT_BLE &none &none &none &tog 6
+   &bt BT_SEL 4 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &bt BT_CLR                          &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4
+                                           &none &none &none &none &none &none &none &none  &none &none &none &none &none &none &none &none
+                                                            &none &none &trans &none &none  &none &none &trans &none &none
       >;
     };
     layer_7 {
@@ -154,24 +152,71 @@
                     &none &trans &kp C_VOLUME_DOWN &kp K_MUTE &kp C_VOLUME_UP &none                          &none &none &none &none &none &none
    &none &kp C_REWIND &kp C_PREVIOUS &kp C_PLAY_PAUSE &kp C_NEXT &kp C_FAST_FORWARD                          &none &none &none &none &none &tog 7
             &none &none &kp C_BRIGHTNESS_DEC &none &kp C_BRIGHTNESS_INC &kp C_SLEEP &none &none  &none &none &none &none &none &none &none &none
-                                                                 &none &none &trans &none &none  &none &none &trans &none &none
+                                                               &trans &none &trans &none &trans  &trans &none &trans &none &trans
       >;
-      sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
     };
     layer_8 {
       bindings = <
    &none &kp F9 &kp F10 &kp F11 &kp F12 &none                          &none &none &none &none &none &none
       &none &kp F5 &kp F6 &kp F7 &kp F8 &none                          &none &none &none &none &none &none
       &none &kp F1 &kp F2 &kp F3 &kp F4 &none &none &none  &none &none &none &kp LSHIFT &kp RGUI &kp RALT &kp RCTRL &tog 8
-                           &none &none &trans &none &none  &none &none &trans &none &none
+                         &trans &none &trans &none &trans  &trans &none &trans &none &trans
       >;
     };
     layer_9 {
       bindings = <
       &kp TAB &none &kp W &kp R &none &none                          &none &kp U &kp UP &none &none &kp HOME
    &kp ESCAPE &none &none &none &none &none                          &kp H &kp LEFT &kp DOWN &kp RIGHT &kp P &none
-        &none &kp Z &none &kp C &none &kp B &none &none  &none &none &kp J &none &none &none &to 0 &kp END
-                     &none &kp LG(F5) &none &none &none  &none &kp RSHIFT &kp LCTRL &kp SPACE &none
+       &none &kp Z &tog 9 &kp C &none &kp B &none &none  &none &none &kp J &none &none &none &to 0 &kp END
+            &trans &kp LG(F5) &none &kp LC(LALT) &trans  &trans &kp RSHIFT &kp LCTRL &kp SPACE &trans
+      >;
+    };
+    layer_10 {
+      bindings = <
+   &kp BACKSPACE &kp F &kp D &kp N &kp I &kp G                          &kp G &kp I &kp N &kp D &kp F &kp BACKSPACE
+      &kp ESCAPE &kp S &kp T &kp H &kp E &kp O                          &kp O &kp E &kp H &kp T &kp S &kp ESCAPE
+       &kp ENTER &kp C &kp W &kp R &kp A &kp U &none &none  &none &none &kp U &kp A &kp R &kp W &kp C &kp ENTER
+                &trans &sk LGUI &mo 15 &lt 11 SPACE &trans  &trans &lt 11 SPACE &mo 15 &sk RGUI &trans
+      >;
+    };
+    layer_11 {
+      bindings = <
+   &kp DELETE &kp J &kp K &kp M &kp SLASH &kp SEMICOLON                          &kp SEMICOLON &kp SLASH &kp M &kp K &kp J &kp DELETE
+       &kp SINGLE_QUOTE &kp Y &kp P &kp L &kp DOT &kp Q                          &kp Q &kp DOT &trans &kp P &kp Y &kp SINGLE_QUOTE
+            &kp ENTER &kp X &kp B &kp V &kp COMMA &kp Z &none &none  &none &none &kp Z &kp COMMA &kp V &kp B &kp X &kp ENTER
+                            &trans &sk LGUI &mo 15 &kp SPACE &trans  &trans &kp SPACE &mo 0 &sk RGUI &trans
+      >;
+    };
+    layer_12 {
+      bindings = <
+                           &kp BACKSPACE &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT                          &kp PERCENT &kp DOLLAR &kp HASH &kp AT &kp EXCLAMATION &sk RALT
+     &kp ESCAPE &kp LEFT_BRACE &kp RIGHT_BRACE &kp LEFT_BRACKET &kp RIGHT_BRACKET &kp BACKSLASH                          &kp BACKSLASH &kp LEFT_BRACKET &kp RIGHT_BRACKET &trans &kp RIGHT_BRACE &sk RCTRL
+   &kp ENTER &kp LESS_THAN &kp GREATER_THAN &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp PIPE &none &none  &none &none &kp PIPE &kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LESS_THAN &kp GREATER_THAN &sk RSHIFT
+                                                                    &trans &sk LGUI &mo 15 &kp SPACE &trans  &trans &kp SPACE &mo 15 &sk RGUI &trans
+      >;
+    };
+    layer_13 {
+      bindings = <
+    &kp BACKSPACE &kp SLASH &kp N7 &kp N8 &kp N9 &kp PLUS                          &kp PLUS &kp N7 &kp N8 &kp N9 &kp SLASH &sk RALT
+   &kp ESCAPE &kp ASTERISK &kp N4 &kp N5 &kp N6 &kp EQUAL                          &kp EQUAL &kp N4 &kp N5 &kp N6 &trans &sk RCTRL
+          &kp ENTER &kp N0 &kp N1 &kp N2 &kp N3 &kp MINUS &none &none  &none &none &kp MINUS &kp N1 &kp N2 &kp N3 &trans &sk RSHIFT
+                              &trans &sk LGUI &mo 15 &kp SPACE &trans  &trans &kp SPACE &mo 15 &sk RGUI &trans
+      >;
+    };
+    layer_14 {
+      bindings = <
+   &kp BACKSPACE &kp CARET &kp AMPERSAND &kp UP &none &none                          &none &none &kp UP &kp AMPERSAND &kp CARET &sk RALT
+     &kp ESCAPE &kp GRAVE &kp LEFT &kp DOWN &kp RIGHT &none                          &none &kp LEFT &kp DOWN &kp RIGHT &trans &sk RCTRL
+       &kp ENTER &kp TILDE &kp UNDERSCORE &none &none &none &none &none  &none &none &none &none &none &kp UNDERSCORE &kp TILDE &sk RSHIFT
+                                &trans &sk LGUI &mo 15 &kp SPACE &trans  &trans &none &none &none &trans
+      >;
+    };
+    layer_15 {
+      bindings = <
+          &kp TAB &none &none &to 0 &none &none                          &none &none &none &none &none &kp TAB
+    &none &to 14 &to 12 &to 11 &to 10 &sk LCTRL                          &sk RCTRL &to 10 &to 11 &to 12 &to 14 &none
+   &none &to 13 &sk LALT &sk LSHIFT &none &none &none &none  &none &none &none &none &sk RSHIFT &sk RALT &to 13 &none
+                           &trans &none &trans &none &trans  &trans &none &trans &none &trans
       >;
     };
 // ZMK JSON END
