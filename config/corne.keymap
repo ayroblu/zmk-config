@@ -83,6 +83,12 @@
                     bindings = <&kp RC(BACKSLASH)>;
                     layers = <0 1 2 4>;
                 };
+                combo_hyper {
+                    timeout-ms = <60>;
+                    key-positions = <40 37>;
+                    bindings = <&kp LG(LS(LA(LCTRL)))>;
+                    layers = <0 1 2 4>;
+                };
                 // -- one handed combos
                 combo_shift {
                     timeout-ms = <60>;

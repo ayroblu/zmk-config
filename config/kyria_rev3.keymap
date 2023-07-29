@@ -84,6 +84,12 @@
         bindings = <&kp RC(BACKSLASH)>;
         layers = <0 1 2 4>;
     };
+    combo_hyper {
+        timeout-ms = <60>;
+        key-positions = <42 47>;
+        bindings = <&kp LG(LS(LA(LCTRL)))>;
+        layers = <0 1 2 4>;
+    };
   };
   keymap {
     compatible = "zmk,keymap";
