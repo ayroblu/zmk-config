@@ -90,6 +90,12 @@
         bindings = <&kp LG(LS(LA(LCTRL)))>;
         layers = <0 1 2 4>;
     };
+    combo_qw {
+        timeout-ms = <60>;
+        key-positions = <47 48>;
+        bindings = <&mo 1>;
+        layers = <0 1 2 4>;
+    };
   };
   keymap {
     compatible = "zmk,keymap";
