@@ -124,10 +124,10 @@
     };
     layer_3 {
       bindings = <
-                                        &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10                          &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
-                      &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F17))))                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
-   &none &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &none &none  &none &none &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
-                                                                  &trans &trans &trans &trans &trans  &trans &trans &kp LG(LS(LA(LCTRL))) &kp N0 &trans
+                                  &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10                          &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
+                   &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &kp LS(LA(LC(F17))))                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
+   &none &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LS(LA(LC(F18)))) &kp LS(LA(LC(F19)))) &none &none  &none &none &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
+                                                            &trans &trans &trans &trans &trans  &trans &trans &kp LG(LS(LA(LCTRL))) &kp N0 &trans
       >;
     };
     layer_4 {
@@ -141,7 +141,7 @@
     };
     layer_5 {
       bindings = <
-   &to 1 &kp LG(LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M))))                          &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMICOLON)))) &tog 6
+      &to 1 &kp LS(LA(LC(Q)))) &kp LG(LS(LA(LC(W)))) &kp LG(LS(LA(LC(R)))) &kp LG(LS(LA(LC(F)))) &kp LG(LS(LA(LC(M))))                          &kp LG(LS(LA(LC(Y)))) &kp LG(LS(LA(LC(U)))) &kp LG(LS(LA(LC(I)))) &kp LG(LS(LA(LC(O)))) &kp LG(LS(LA(LC(SEMICOLON)))) &tog 6
    &to 0 &kp LG(LS(LA(LC(A)))) &kp LG(LS(LA(LC(S)))) &kp LG(LS(LA(LC(D)))) &kp LG(LS(LA(LC(T)))) &kp LG(LS(LA(LC(G))))                          &kp LG(LS(LA(LC(H)))) &kp LG(LS(LA(LC(N)))) &kp LG(LS(LA(LC(E)))) &kp LG(LS(LA(LC(L)))) &kp LG(LS(LA(LC(P)))) &tog 7
    &to 2 &kp LG(LS(LA(LC(Z)))) &kp LG(LS(LA(LC(X)))) &kp LG(LS(LA(LC(C)))) &kp LG(LS(LA(LC(V)))) &kp LG(LS(LA(LC(B)))) &none &none  &none &none &kp LG(LS(LA(LC(J)))) &kp LG(LS(LA(LC(K)))) &kp LG(LS(LA(LC(COMMA)))) &kp LG(LS(LA(LC(DOT)))) &to 9 &tog 8
                                                                                                    &trans &none &none &none &trans  &trans &none &none &none &trans
