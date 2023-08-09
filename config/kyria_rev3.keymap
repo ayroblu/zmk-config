@@ -116,16 +116,16 @@
     };
     layer_2 {
       bindings = <
-   &trans &kp Z &kp R &kp C &kp G &kp F                          &kp Y &kp J &kp K &kp Q &kp SEMICOLON &trans
-   &trans &kp S &kp N &kp T &kp H &kp D                          &kp U &kp I &kp E &kp O &kp A &kp SINGLE_QUOTE
-   &trans &kp L &kp V &kp W &kp M &kp B &none &none  &none &none &kp X &kp P &kp COMMA &kp DOT &kp SLASH &trans
+   &trans &kp Z &kp Q &kp F &kp P &kp B                          &kp J &kp L &kp U &kp Y &kp SEMICOLON &trans
+   &trans &kp R &kp A &kp S &kp T &kp G                          &kp M &kp N &kp E &kp I &kp O &kp SINGLE_QUOTE
+   &trans &kp W &kp X &kp C &kp D &kp V &none &none  &none &none &kp K &kp H &kp COMMA &kp DOT &kp SLASH &trans
                  &trans &trans &trans &trans &trans  &trans &trans &trans &trans &trans
       >;
     };
     layer_3 {
       bindings = <
                                         &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10                          &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
-                                        &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &none                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
+                      &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &kp LG(LS(LA(LC(F17))))                          &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
    &none &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LG(LS(LA(LC(F18)))) &kp LG(LS(LA(LC(F19)))) &none &none  &none &none &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
                                                                   &trans &trans &trans &trans &trans  &trans &trans &kp LG(LS(LA(LCTRL))) &kp N0 &trans
       >;
