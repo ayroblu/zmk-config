@@ -89,6 +89,18 @@
                     bindings = <&kp LG(LS(LA(LCTRL)))>;
                     layers = <0 1 2 4>;
                 };
+                combo_left_globe {
+                    timeout-ms = <60>;
+                    key-positions = <13 14 37>;
+                    bindings = <&kp GLOBE>;
+                    layers = <0 1 2 4>;
+                };
+                combo_right_globe {
+                    timeout-ms = <60>;
+                    key-positions = <40 21 22>;
+                    bindings = <&kp GLOBE>;
+                    layers = <0 1 2 4>;
+                };
                 combo_qw {
                     timeout-ms = <60>;
                     key-positions = <40 41>;
