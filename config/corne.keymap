@@ -89,16 +89,16 @@
                     bindings = <&kp LG(LS(LA(LCTRL)))>;
                     layers = <0 1 2 4>;
                 };
-                combo_left_globe {
+                combo_left_capslock {
                     timeout-ms = <60>;
                     key-positions = <13 14 37>;
-                    bindings = <&kp GLOBE>;
+                    bindings = <&kp CAPSLOCK>;
                     layers = <0 1 2 4>;
                 };
-                combo_right_globe {
+                combo_right_capslock {
                     timeout-ms = <60>;
                     key-positions = <40 21 22>;
-                    bindings = <&kp GLOBE>;
+                    bindings = <&kp CAPSLOCK>;
                     layers = <0 1 2 4>;
                 };
                 combo_qw {
