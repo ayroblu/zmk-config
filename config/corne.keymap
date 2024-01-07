@@ -35,6 +35,18 @@
                     bindings = <&kp ENTER>;
                     layers = <0 1 2 4>;
                 };
+                combo_tmux_left {
+                    timeout-ms = <60>;
+                    key-positions = <37 15 16>;
+                    bindings = <&kp RC(BACKSLASH)>;
+                    layers = <0 1 2 4>;
+                };
+                combo_tmux_right {
+                    timeout-ms = <60>;
+                    key-positions = <40 19 20>;
+                    bindings = <&kp RC(BACKSLASH)>;
+                    layers = <0 1 2 4>;
+                };
                 combo_alt_shift {
                     timeout-ms = <60>;
                     key-positions = <41 32>;
@@ -45,6 +57,18 @@
                     timeout-ms = <60>;
                     key-positions = <39 32>;
                     bindings = <&kp RG(RSHIFT)>;
+                    layers = <0 1 2 4>;
+                };
+                combo_left_control {
+                    timeout-ms = <60>;
+                    key-positions = <14 15 37>;
+                    bindings = <&kp LCTRL>;
+                    layers = <0 1 2 4>;
+                };
+                combo_right_control {
+                    timeout-ms = <60>;
+                    key-positions = <40 20 21>;
+                    bindings = <&kp RCTRL>;
                     layers = <0 1 2 4>;
                 };
                 combo_control {
@@ -65,18 +89,18 @@
                     bindings = <&kp LG(LS(LA(LCTRL)))>;
                     layers = <0 1 2 4>;
                 };
-                // combo_left_capslock {
-                //     timeout-ms = <60>;
-                //     key-positions = <13 14 37>;
-                //     bindings = <&kp CAPSLOCK>;
-                //     layers = <0 1 2 4>;
-                // };
-                // combo_right_capslock {
-                //     timeout-ms = <60>;
-                //     key-positions = <40 21 22>;
-                //     bindings = <&kp CAPSLOCK>;
-                //     layers = <0 1 2 4>;
-                // };
+                combo_left_capslock {
+                    timeout-ms = <60>;
+                    key-positions = <13 14 37>;
+                    bindings = <&kp CAPSLOCK>;
+                    layers = <0 1 2 4>;
+                };
+                combo_right_capslock {
+                    timeout-ms = <60>;
+                    key-positions = <40 21 22>;
+                    bindings = <&kp CAPSLOCK>;
+                    layers = <0 1 2 4>;
+                };
                 combo_qwerty {
                     timeout-ms = <60>;
                     key-positions = <40 41>;
@@ -223,7 +247,7 @@
                         bindings = <
                              &to 1 &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &kp BACKSPACE &kp PLUS &tog 6
    &to 0 &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN  &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &tog 7
-                                &to 2 &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp RCTRL &kp RGUI &kp UNDERSCORE &tog 8
+                                &to 2 &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &kp UNDERSCORE &tog 8
                                                       &trans &kp LG(LS(LA(LCTRL))) &trans  &trans &trans &kp RALT
                         >;
                 };
