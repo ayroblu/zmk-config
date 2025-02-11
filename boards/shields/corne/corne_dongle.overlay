@@ -6,6 +6,8 @@
     transform = <&default_transform>;
 };
 
+// Why is this here? For some reason if you don't copy all the layouts same as
+// defined in zmk, then it doesn't use the correct layout
 &foostan_corne_5col_layout {
     transform = <&five_column_transform>;
 };
