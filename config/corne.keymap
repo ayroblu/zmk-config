@@ -240,7 +240,7 @@
                                 &kp DELETE &tog 7 &tog 6 &kp UP &kp MINUS &to 10  &kp KP_MULTIPLY &kp N7 &kp N8 &kp N9 &kp KP_PLUS &kp BACKSPACE
                   &none &kp LALT &kp LEFT &kp DOWN &kp RIGHT &kp LS(LA(LC(F17)))  &kp KP_SLASH &kp N4 &kp N5 &kp N6 &kp KP_MINUS &kp KP_EQUAL
    &none &kp LCTRL &kp ESCAPE &kp LSHIFT &kp LS(LA(LC(F18))) &kp LS(LA(LC(F19)))  &kp SPACE &kp N1 &kp N2 &kp N3 &kp KP_DOT &kp COMMA
-                                                            &trans &trans &trans  &trans &kp LG(LS(LA(LCTRL))) &kp N0
+                                                            &trans &trans &trans  &trans &trans &kp N0
                         >;
                 };
                 layer_4 {
@@ -248,7 +248,7 @@
                              &to 1 &kp EXCLAMATION &kp AT &kp HASH &kp DOLLAR &kp PERCENT  &kp CARET &kp AMPERSAND &kp ASTERISK &kp BACKSPACE &kp PLUS &tog 6
    &to 0 &kp BACKSLASH &kp LEFT_BRACE &kp LEFT_BRACKET &kp LEFT_PARENTHESIS &kp LESS_THAN  &kp GREATER_THAN &kp RIGHT_PARENTHESIS &kp RIGHT_BRACKET &kp RIGHT_BRACE &kp MINUS &tog 7
                                 &to 2 &kp PIPE &none &kp GRAVE &kp TILDE &kp SINGLE_QUOTE  &kp DOUBLE_QUOTES &kp EQUAL &kp ESCAPE &kp ENTER &kp UNDERSCORE &tog 8
-                                                      &trans &kp LG(LS(LA(LCTRL))) &trans  &trans &trans &kp RALT
+                                                                     &trans &trans &trans  &trans &trans &kp RALT
                         >;
                 };
                 layer_5 {
