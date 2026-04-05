@@ -2,4 +2,34 @@ on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@main
+    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.2
+  publish:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+
+      - name: Generate date-based release name
+        id: date
+        run: |
+          echo "DATE=$(date +'%Y-%m-%d')" >> $GITHUB_OUTPUT
+          echo "DATETIME=$(date +'%Y-%m-%d %H:%M %Z')" >> $GITHUB_OUTPUT
+
+      - name: Create Release and upload firmware
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: nightly-${{ steps.date.outputs.DATE }}
+          name: firmware ${{ steps.date.outputs.DATE }}
+          draft: false
+          prerelease: true
+          files: artifacts/**/*
+          body: |
+            Automatic nightly build from main branch.
+
+            Built on: ${{ steps.date.outputs.DATETIME }}
+            Workflow run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
